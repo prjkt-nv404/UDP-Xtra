@@ -1,0 +1,16 @@
+{
+    "listen": ":36712",
+    "protocol": "udp",
+    "cert": "/etc/udpxtra/udpxtra.server.crt",
+    "key": "/etc/udpxtra/udpxtra.server.key",
+    "up": "100 Mbps",
+    "up_mbps": 100,
+    "down": "100 Mbps",
+    "down_mbps": 100,
+    "disable_udp": false,
+    "obfs": "voltssh",
+    "auth": {
+          "mode": "system",
+          "config": [""]
+           }
+  }
